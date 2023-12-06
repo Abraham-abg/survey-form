@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="firstproject.css">
+  <title>CHC Survey Form</title>
+</head>
+
+<body>
+<h1 id="title">Christ our Hope Church Survey Form</h1>
+<p id="description">Thank you for taking your time to fill this survey form</p>
+<form action=" " id="survey-form">
+<fieldset>
+  <label for="name-label" id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+
+
+<label for="email-label" id="email-label">Email <input type="email" id="email" placeholder="Enter your email" required></label>
+
+
+<label for="number-label" id="number-label">Age <input type="number" id="number" max="100" min="10" placeholder="What is your age(optional)"></label>
+</fieldset>
+<fieldset>
+<legend>Select your level below:</legend>
+<label for="dropdown"
+
+<select name="level" id="dropdown">
+   <option value="">Select your level</option>
+   <option value="1">100</option>
+   <option value="2">200</option>
+   <option value="3">300</option>
+   <option value="4">400</option>
+   <option value="5">500</option> 
+</select>
+
+</label>
+</fieldset>
+<fieldset>
+<label for="membership-type">
+  <input type="radio" name="membership" id="membership-type" class="inline" checked>First timer
+  </label>
+
+  <label for="membership-type">
+  <input type="radio" name="membership" id="membership-type" class="inline">Staylite
+  </label>
+
+  <label for="membership-type">
+  <input type="radio" name="membership" id="membership-type" class="inline">Other
+</label>
+ </fieldset>
+ 
+ 
+ <fieldset>
+<legend>What part of the service do you want us to improve on</legend>
+<label for="checkbox">
+  <input type="checkbox" class="inline">None
+  </label>
+
+  <label for="checkbox">
+<input type="checkbox" class="inline">Mode of worship
+</label>
+
+  <label for="checkbox">
+<input type="checkbox" class="inline">Mode of prayer
+</label>
+
+<label for="checkbox">
+  <input type="checkbox" class="inline">Time
+  </label>
+
+  <label for="checkbox">
+<input type="checkbox" class="inline">Sermon
+</label>
+  <label for="checkbox">
+<input type="checkbox" class="inline">Other
+</label>
+ </fieldset>
+ 
+ <legend>Put down your view and suggestion below for :</legend>
+<label for="suggestion">
+<textarea name="suggestion" id="suggestion" cols="30" rows="5" placeholder="Your Suggestion(s)"></textarea>
+</label>
+<label for="submit">
+<button type="submit" id="submit">Submit</button></label>
+</form>
+</body>
+</html>  
